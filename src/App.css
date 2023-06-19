@@ -1,0 +1,75 @@
+body{
+  background-color: snow;
+}
+.App {
+  text-align: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  flex: 0 0 auto;
+  margin: 10px auto;
+  align-items: center;
+  border: 1px solid #2d2d2d;
+  border-radius: 10%;
+  width: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.card--description {
+  padding: 0px 14px;
+  text-align: justify;
+}
+.card--badge {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.nav--logo {
+  max-width: 100px;
+}
+.nav-style {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  font-family: papyrus;
+  text-transform: uppercase;
+}
+.nav-style > h1 {
+  /* margin: auto ; */
+  margin-right: 5%;
+}
+.hero{
+  text-align: center;
+}
+.hero--photo{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  border-radius: 30px;
+}
+.card--image {
+  width: 90%;
+  border-radius: 7%;
+  margin: 15px;
+}
+.card--star {
+  width: 20px;
+}
+.card--stats{
+  display: flex;
+}
+.card--stats > span {
+  padding: 0px 7px;
+}
+.bold {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: papyrus;
+}
